@@ -1,6 +1,6 @@
 = bio-hydropathy
 
-Simple biogem to calculate amino acid hydropathy. They are calculated as proposed by
+A simple biogem to calculate amino acid hydropathy. They are calculated as proposed by
 
     Jack Kyte, Russell F. Doolittle,
     A simple method for displaying the hydropathic character of 
