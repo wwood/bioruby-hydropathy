@@ -1,6 +1,15 @@
-= bio-bio-hydropathy
+= bio-hydropathy
 
-Description goes here.
+Simple biogem to calculate amino acid hydropathy. They are calculated as proposed by
+
+    Jack Kyte, Russell F. Doolittle,
+    A simple method for displaying the hydropathic character of 
+    a protein, Journal of Molecular Biology,
+    Volume 157, Issue 1, 5 May 1982, Pages 105-132
+
+Example:
+
+    Bio::Sequence::AA.new('ACD').hydrophopathy_profile #=> [1.8, 2.5, -3.5]
 
 == Contributing to bio-bio-hydropathy
  

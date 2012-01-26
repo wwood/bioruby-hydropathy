@@ -12,6 +12,7 @@ module Bio
         profile
       end
       
+      # Sum of hydropathy values for each amino acid, divided by the length of the protein
       def grand_average_of_hydropathy
         hydrophopathy_profile.inject{|sum,x| sum + x }.to_f/seq.length
       end

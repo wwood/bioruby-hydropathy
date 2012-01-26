@@ -15,10 +15,10 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "bio-bio-hydropathy"
-  gem.homepage = "http://github.com/wwood/bioruby-bioruby-hydropathy"
+  gem.homepage = "http://github.com/wwood/bioruby-hydropathy"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Hydropathy scale for BioRuby}
+  gem.description = %Q{Hydropathy scale for BioRuby}
   gem.email = "donttrustben near gmail.com"
   gem.authors = ["Ben J Woodcroft"]
   # dependencies defined in Gemfile
